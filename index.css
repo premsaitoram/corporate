@@ -1,0 +1,1494 @@
+.container{
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 421.06rem;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+}
+
+.logo-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.5rem;
+    height: 3.25rem;
+    object-fit: cover;
+}
+
+.about,
+.home{
+    position: absolute;
+    top: 0;
+}
+.home{
+    left: 0;
+    text-decoration: underline;
+    font-weight: 600;
+    color: var(--color-orangered);
+}
+.about{
+    left: 6.19rem;
+}
+.projects,
+.resources,
+.services{
+    position: absolute;
+    top: 0;
+    left: 12.44rem;
+}
+.projects,
+.resources{
+    left: 19.6rem;
+}
+.projects{
+    left: 27.56rem;
+}
+.group-wrapper,
+.home-parent{
+    position: absolute;
+    width: 31.13rem;
+    height: 1.19rem;
+}
+.home-parent{
+    top: 0;
+    left: 0;
+}
+.group-wrapper{
+    top: 1rem;
+    left: 19.56rem;
+}
+.contact-us{
+    position: relative;
+    line-height: 100%;
+}
+.contact-us-today-wrapper{
+    position: absolute;
+    background-color: var(--color-orangered);
+    top: 0.31rem;
+    left: 64.75rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-mid);
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
+}
+
+.corporate-logo{
+    position: relative;
+    width: 73.5rem;
+    height: 3.25rem;
+}
+
+.group-child,
+.inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.inner{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-5xl) 13.25rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-lato);
+
+}
+.group-child{
+    background-color: var(--color-gray-300);
+    width: 100.75rem;
+    height: 41.81rem;
+}
+.icon{
+    position: absolute;
+    top: 3.38rem;
+    left: 50.38rem;
+    width: 41.31rem;
+    height: 38.38rem;
+    object-fit: cover;
+}
+.rectangle-parent{
+    position: absolute;
+    top: 6.25rem;
+    left: -0.75rem;
+    width: 100.75rem;
+    height: 41.81rem;
+}
+.ornamentdotted-icon1{
+    position: absolute;
+    top: 39.44rem;
+    left: 0;
+    width: 7rem;
+    height: 7rem;
+}
+.ornamentdotted-icon2,
+.ornamentdotted-icon3{
+    position: absolute;
+    top: 111.69rem;
+    left: 13.94rem;
+    width: 7rem;
+    height: 7rem;
+}
+.ornamentdotted-icon3{
+    top: 316.94rem;
+    left: 96.81rem;
+}
+.ornamentdotted-icon4 {
+    position: absolute;
+    top: 354.81rem;
+    left: 0;
+    width: 7rem;
+    height: 7rem;
+}
+
+.ornamentdotted-icon5 {
+    position: absolute;
+    top: 7.88rem;
+    left: 97.25rem;
+    width: 7rem;
+    height: 7rem;
+}
+
+.consultation{
+    color: var(--color-orangered);
+}
+.consultation-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 140%;
+    display: inline-block;
+    width: 35.31rem;
+}
+.scelerisque-dignissim-in{
+    position: absolute;
+    top: 16.63rem;
+    left: 0;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    font-family: var(--font-inter);
+    color: #f4f3f3;
+    display: inline-block;
+    width: 29.38rem;
+}
+.our-services{
+    position: relative;
+    line-height: 100%;
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+}
+.our-services-wrapper{
+    position: absolute;
+    top: 21.32rem;
+    left: 0;
+    border-radius: var(--br-11xs);
+    background-color: var(--color-orangered);
+    width: 10.25rem;
+    height: 3.25rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-mid);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-lato);
+}
+.consultation-parent{
+    position: absolute;
+    top: 14.88rem;
+    left: 13.25rem;
+    width: 35.31rem;
+    height: 24.56rem;
+    font-size: 3.63rem;
+}
+.care-features{
+    position: absolute;
+    top: 0;
+    left: 14rem;
+    letter-spacing: 0.21rem;
+    line-height: 100%;
+    font-weight:500
+}
+.awesome-service-with{
+    position: absolute;
+    top: 2.38rem;
+    left: 0;
+    font-size: var(--font-size-19xl);
+    line-height: 140%;
+    font-weight: 600;
+    color: var(--color-gray-300);
+    text-align: center;
+    display: inline-block;
+    width: 40.44rem;
+}
+.care-features-parent{
+    position: relative;
+    width: 40.44rem;
+    height: 5.69rem;
+}
+.image-2-icon{
+    position: absolute;
+    top:0;
+    left: 7rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    object-fit: cover;
+}
+.app-development{
+    position: absolute;
+    top: 0;
+    left: 1.19rem;
+    line-height: 100%;
+    font-weight: 500;
+}
+.helping-families-live{
+    position: absolute;
+    top: 2.69rem;
+    left: 0;
+    font-size: var(--font-size-lg);
+    line-height: 160%;
+    color: var(--color-gray-100);
+    text-align: center;
+    display: inline-block;
+    width: 18.31rem;
+    height: 5.63rem;
+}
+.app-development-parent{
+    position: absolute;
+    top: 5.88rem;
+    left: 0;
+    width: 18.31rem;
+    height: 8.31rem;
+}
+.image-2-parent{
+    position: relative;
+    width: 18.31rem;
+    height: 14.19rem;
+}
+.cloud-storage,
+.ux-planning{
+    left: 4rem;
+}
+.group-container,
+.group-parent{
+    display: flex;
+    justify-content: flex-start;
+}
+.group-container{
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 6.88rem;
+    font-size: var(--font-size-9xl);
+    color: var(--color-gray-300);
+}
+.group-parent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.75rem;
+}
+.child{
+    position: absolute;
+    top: 56.81rem;
+    left: 14.94rem;
+    width: 68.69rem;
+    height: 24.63rem;
+    color: var(--color-orangered);
+}
+.group-inner,
+.group-item{
+    position: absolute;
+    width: 14.17rem;
+    object-fit: cover;
+}
+.group.item{
+    top: 0;
+    left: 0;
+    height: 22.05rem;
+}
+.group-inner{
+    top: 3.91rem;
+    left: 15.81rem;
+    height: 22.28rem;
+
+}
+.rectangular-group{
+    position: relative;
+    width: 29.98rem;
+    height: 26.19rem;
+}
+.influencer-marketing-for{
+    position: absolute;
+    top: 2.38rem;
+    left: 0;
+    font-size: var(--font-size-29xl);
+    line-height: 140%;
+    font-weight: 600;
+    color: var(--color-gray-300);
+    display: inline-block;
+    width: 31.88rem;
+}
+.about-parent{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 31.88rem;
+    height: 10.75rem;
+}
+.with-over-25{
+    position: absolute;
+    top: 12.56rem;
+    left: 0;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    color: var(--color-gray-200);
+    display: inline-block;
+    width: 31.25rem;
+}
+.group-div{
+    position: relative;
+    width: 31.88rem;
+    height: 19.06rem;
+}
+.phone-number-wrapper{
+    border-radius: var(--br-11xs);
+    background-color: var(--color-orangered);
+    width: 15.94rem;
+    height: 3.56rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-mid);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-lato)
+}
+.frame,
+.group-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.63rem;
+}
+.frame{
+    position: absolute;
+    top: 90.19rem;
+    left: 16.06rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 4.5rem;
+    color: var(--color-orangered);
+}
+
+.rectangle-div,
+.rectangle-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32.13rem;
+    height: 39.94rem;
+}
+.rectangle-icon{
+    object-fit: cover;
+}
+.rectangle-div {
+    background: linear-gradient(0.53deg, #fd5c30, transparent);
+}
+.technical-analysis,
+.text-many{
+    position: absolute;
+    left: 0;
+    display: inline-block;
+}
+.technical-analysis{
+    top: 0;
+    line-height: 140%;
+    font-weight: 600;
+    width: 18.31rem;
+}
+.text-many{
+    top: 3.88rem;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    width: 24.25rem;
+    height: 7.69rem;
+}
+.technical-analysis-parent{
+    position: absolute;
+    top: 23.13rem;
+    left: 2.31rem;
+    width: 24.25rem;
+    height: 11.56rem;
+}
+
+.rectangle-container,
+.rectangle-parent1{
+    position: absolute;
+    top: 0;
+    width: 32.13rem;
+    height: 39.94rem;
+}
+.rectangle-container {
+    left: 0;
+}
+
+.rectangle-parent1 {
+    left: 35.38rem;
+}
+
+.group-parent-3 {
+    position: absolute;
+    top: 11.19rem;
+    left: 0;
+    width: 67.5rem;
+    height: 39.94rem;
+}
+.our-service1 {
+    position: absolute;
+    top: 0;
+    left: 15.25rem;
+    letter-spacing: 0.21em;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.amazing-business-services {
+    position: absolute;
+    top: 2.38rem;
+    left: 0;
+    font-size: var(--font-size-29xl);
+    line-height: 140%;
+    font-weight: 600;
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    width: 41.25rem;
+}
+
+.our-servicess-parent {
+    position: absolute;
+    top: 0;
+    left: 13.13rem;
+    width: 41.25rem;
+    height: 6.56rem;
+    font-size: var(--font-size-xl);
+    color: var(--color-orangered);
+}
+
+.group-parent2 {
+    position: relative;
+    width: 67.5rem;
+    height: 51.13rem;
+}
+.inner1 {
+    position: absolute;
+    top: 125.13rem;
+    left: -0.75rem;
+    background-color: var(--color-gray-300);
+    width: 100.81rem;
+    height: 63.13rem;
+    display: flex;
+    flex-direction: column;
+    padding: 7.69rem 16.25rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-11xl);
+}
+
+.group-icon,
+.who-we-are {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.group-icon {
+    width: 31.17rem;
+    height: 31.75rem;
+}
+
+.who-we-are {
+    letter-spacing: 0.21em;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.have-a-project {
+    position: absolute;
+    top: 2.38rem;
+    left: 0;
+    font-size: var(--font-size-29xl);
+    line-height: 140%;
+    font-weight: 600;
+    color: var(--color-gray-300);
+    display: inline-block;
+    width: 35.31rem;
+}
+
+.who-we-are-parent {
+    position: absolute;
+    top: 0;
+    left: 0.02rem;
+    width: 35.31rem;
+    height: 10.75rem;
+}
+
+.sed-ut-perspiciatis {
+    position: absolute;
+    top: 15.56rem;
+    
+    left: 0;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    color: var(--color-gray-200);
+    display: inline-block;
+    width: 31.44rem;
+    height: 5.5rem;
+}
+
+.group-parent5 {
+    position: relative;
+    width: 35.33rem;
+    height: 18.06rem;
+}
+
+.group-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.business-planning-strategy {
+    margin: 0;
+    padding-left: var(--padding-5xl);
+    
+}
+
+.business-planning-strategy-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-inherit);
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--font-inherit);
+}
+
+.financial-projections-and,
+.international-business-opportu {
+    position: absolute;
+    top: 3.13rem;
+    left: 0;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.international-business-opportu {
+    top: 6.25rem;
+}
+
+.business-planning-strategy-parent {
+    position: relative;
+    width: 21.44rem;
+    height: 7.38rem;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkgray);
+    top: 3.13rem;
+}
+
+.frame-parent {
+    position: absolute;
+    top: 1.75rem;
+    left: 34.73rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.75rem;
+}
+
+.group-parent4 {
+    position: absolute;
+    top: 197rem;
+    left: 14.19rem;
+    width: 70.07rem;
+    height: 30.63rem;
+    color: var(--color-orangered);
+}
+
+.latest-project {
+    position: absolute;
+    top: 0;
+    left: 9.31rem;
+    letter-spacing: 0.21em;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.lets-looks-our {
+    position: absolute;
+    top: 2.88rem;
+    left: 0;
+    font-size: var(--font-size-19xl);
+    line-height: 140%;
+    font-weight: 600;
+    color: var(--color-gray-300);
+    text-align: center;
+    display: inline-block;
+    width: 37.06rem;
+}
+
+.group-child3,
+.latest-project-case-parent {
+    position: absolute;
+    top: 0;
+    left: 31.63rem;
+    width: 37.06rem;
+    height: 6.19rem;
+}
+
+.group-child3 {
+    left: 0.88rem;
+    width: 24.19rem;
+    height: 29rem;
+    object-fit: cover;
+}
+
+.group-child4,
+.group-child5 {
+    width: 23.13rem;
+    object-fit: cover;
+}
+
+.group-child4 {
+    position: absolute;
+    top: 0;
+    left: 51.06rem;
+    height: 29rem;
+}
+
+.group-child5 {
+    left: 26.06rem;
+}
+
+.group-child5,
+.group-child6,
+.group-child7 {
+    position: absolute;
+    top: 0;
+    height: 29rem;
+}
+
+.group-child6 {
+    left: 76.06rem;
+    width: 24.19rem;
+    object-fit: cover;
+}
+
+.group-child7 {
+    left: 0;
+    background: linear-gradient(0.53deg, #fd5c30, transparent);
+    width: 23.94rem;
+}
+
+.there-are-many2 {
+    position: absolute;
+    top: 3.25rem;
+    left: 0;
+    font-size: var(--font-size-base);
+    line-height: 160%;
+    display: inline-block;
+    width: 18.19rem;
+    height: 4.88rem;
+}
+
+.technical-analysis-container {
+    position: absolute;
+    top: 18.88rem;
+    left: 2.69rem;
+    width: 18.31rem;
+    height: 8.13rem;
+}
+
+.rectangle-parent3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23.94rem;
+    height: 29rem;
+}
+
+.group-child8 {
+    left: 0;
+    background: linear-gradient(0.53deg, #fd5c30, transparent);
+    width: 23.19rem;
+}
+
+.group-child8,
+.group-child9,
+.rectangle-parent4 {
+    position: absolute;
+    top: 0;
+    height: 29rem;
+}
+
+.rectangle-parent4 {
+    left: 25.75rem;
+    width: 23.19rem;
+}
+
+.group-child9 {
+    left: 0;
+    background: linear-gradient(0.53deg, #fd5c30, transparent);
+    width: 23.13rem;
+}
+
+.group-parent7,
+.rectangle-parent5,
+.rectangle-parent6 {
+    position: absolute;
+    top: 0;
+    left: 50.81rem;
+    width: 23.13rem;
+    height: 29rem;
+}
+
+.group-parent7,
+.rectangle-parent6 {
+    left: 75.81rem;
+    width: 23.94rem;
+}
+
+.group-parent7 {
+    left: 0.25rem;
+    width: 99.75rem;
+}
+
+.rectangle-parent2 {
+    position: absolute;
+    top: 11.56rem;
+    left: 0;
+    width: 100.25rem;
+    height: 29rem;
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+}
+
+.group-parent6 {
+    position: absolute;
+    top: 236.38rem;
+    left: -0.87rem;
+    width: 100.25rem;
+    height: 40.56rem;
+    color: var(--color-orangered);
+}
+
+.group-child11,
+.group-child12 {
+    position: absolute;
+    top: 0;
+    height: 23.75rem;
+}
+
+.group-child11 {
+    left: 0.25rem;
+    width: 100.06rem;
+    object-fit: cover;
+}
+
+.group-child12 {
+    left: 0;
+    background-color: rgba(3, 19, 51, 0.7);
+    width: 100.25rem;
+}
+
+.get-free-consultations {
+    position: relative;
+    line-height: 100%;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+    width: 14.19rem;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.get-free-consultations-wrapper {
+    position: absolute;
+    top: 1.5rem;
+    left: 52.94rem;
+    border-radius: var(--br-11xs);
+    background-color: var(--color-orangered);
+    width: 17.75rem;
+    height: 4.88rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-mid);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-free-consultations1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.63rem;
+    line-height: 149.5%;
+    display: inline-block;
+    font-family: var(--font-poppins);
+    width: 40.56rem;
+}
+
+.frame-group {
+    position: absolute;
+    top: 7.94rem;
+    left: 14.69rem;
+    width: 70.69rem;
+    height: 7.88rem;
+}
+
+.group-parent8 {
+    top: 0;
+    width: 100.31rem;
+    height: 23.75rem;
+}
+
+.base-icon,
+.group-parent8,
+.inner2 {
+    position: absolute;
+    left: 0;
+}
+
+.inner2 {
+    top: 285.06rem;
+    width: 100.31rem;
+    height: 23.75rem;
+    font-size: var(--font-size-3xl);
+    font-family: var(--font-lato);
+}
+
+.base-icon {
+    top: 0;
+    border-radius: var(--br-xs);
+    width: 23.13rem;
+    height: 32.5rem;
+}
+
+.business-consultant {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: -0.02em;
+    line-height: 1.13rem;
+    display: inline-block;
+    width: 11.13rem;
+}
+
+.robert-c-simmons,
+.title {
+    position: absolute;
+    left: 1.56rem;
+}
+
+.title {
+    top: 29.69rem;
+    width: 11.13rem;
+    height: 1.13rem;
+}
+
+.robert-c-simmons {
+    top: 27.25rem;
+    font-size: var(--font-size-xl);
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: var(--color-midnightblue);
+    display: inline-block;
+    width: 12.13rem;
+    text-decoration: none;
+}
+
+.card-01,
+.image-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23.13rem;
+}
+
+.image-icon {
+    border-radius: var(--br-xs) var(--br-xs) 0 0;
+    height: 25.63rem;
+    object-fit: cover;
+}
+
+.card-01 {
+    height: 32.5rem;
+}
+
+.senior-manager,
+.title1 {
+    position: absolute;
+    width: 8.88rem;
+}
+
+.senior-manager {
+    top: 0;
+    left: 0;
+    letter-spacing: -0.02em;
+    line-height: 1.13rem;
+    display: inline-block;
+}
+
+.title1 {
+    top: 29.69rem;
+    left: 1.56rem;
+    height: 1.13rem;
+}
+
+.christopher-l-wagner {
+    position: absolute;
+    top: 27.25rem;
+    left: 1.56rem;
+    font-size: var(--font-size-xl);
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: var(--color-midnightblue);
+    display: inline-block;
+    width: 14.19rem;
+}
+
+.card-2 {
+    position: absolute;
+    top: 0;
+    left: 25rem;
+    width: 23.13rem;
+    height: 32.5rem;
+}
+
+.financial-consultant,
+.title2 {
+    position: absolute;
+    width: 11.44rem;
+}
+
+.financial-consultant {
+    top: 0;
+    left: 0;
+    letter-spacing: -0.02em;
+    line-height: 1.13rem;
+    display: inline-block;
+}
+
+.title2 {
+    top: 29.69rem;
+    left: 1.56rem;
+    height: 1.13rem;
+}
+
+.lawrence-c-dickerson {
+    position: absolute;
+    top: 27.25rem;
+    left: 1.56rem;
+    font-size: var(--font-size-xl);
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: var(--color-midnightblue);
+    display: inline-block;
+    width: 14.63rem;
+}
+
+.card-01-parent,
+.card-3 {
+    position: absolute;
+    height: 32.5rem;
+}
+
+.card-3 {
+    top: 0;
+    left: 50rem;
+    width: 23.13rem;
+}
+
+.card-01-parent {
+    top: 10.75rem;
+    left: 0;
+    width: 73.13rem;
+}
+
+.experience-team-members {
+    margin: 0;
+}
+
+.experience-team-members-container {
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    line-height: 140%;
+    font-weight: 600;
+    display: inline-block;
+    width: 32.69rem;
+    height: 3.25rem;
+}
+
+.meet-our-team {
+    position: absolute;
+    top: 0;
+    left: 10rem;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.21em;
+    line-height: 100%;
+    font-weight: 500;
+    color: var(--color-orangered);
+    text-align: left;
+}
+
+.experience-team-members-parent {
+    position: absolute;
+    top: 0;
+    left: 20.25rem;
+    width: 32.69rem;
+    height: 5.75rem;
+    text-align: center;
+    font-size: var(--font-size-19xl);
+    color: var(--color-gray-300);
+}
+
+.group-parent9 {
+    position: absolute;
+    top: 316.94rem;
+    left: 13.63rem;
+    width: 73.13rem;
+    height: 43.25rem;
+    font-size: var(--font-size-lg);
+    color: var(--color-dimgray);
+}
+
+.subscription-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 79rem;
+    height: 20.44rem;
+}
+
+.passages-of-lorem,
+.subscribe-to-our {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+}
+
+.passages-of-lorem {
+    top: 6.88rem;
+    line-height: 180%;
+    width: 26.13rem;
+    height: 3.06rem;
+}
+
+.subscribe-to-our {
+    top: 0;
+    font-size: var(--font-size-9xl);
+    line-height: 159.5%;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    width: 28.69rem;
+}
+
+.passages-of-lorem-ipsum-availa-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28.69rem;
+    height: 9.94rem;
+}
+
+.line-div {
+    position: absolute;
+    top: -0.03rem;
+    left: 33.66rem;
+    border-right: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 0.06rem;
+    height: 10rem;
+}
+
+.get-started {
+    position: relative;
+    line-height: 100%;
+    display: inline-block;
+    width: 7.06rem;
+    flex-shrink: 0;
+}
+
+.get-started-wrapper {
+    position: absolute;
+    top: 3.31rem;
+    left: 38.69rem;
+    border-radius: var(--br-11xs);
+    background-color: var(--color-orangered);
+    width: 11.06rem;
+    height: 3.38rem;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-mid);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-3xl);
+    color: var(--color-white);
+    font-family: var(--font-lato);
+}
+
+.group-parent10 {
+    position: absolute;
+    top: 5.25rem;
+    left: 14.63rem;
+    width: 49.75rem;
+    height: 9.94rem;
+}
+
+.subscription-parent {
+    position: absolute;
+    top: 368.31rem;
+    left: 8.81rem;
+    width: 79rem;
+    height: 20.44rem;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-nunito-sans);
+}
+
+.group-child13,
+.inner3 {
+    position: absolute;
+    width: 99.75rem;
+    height: 25.75rem;
+}
+
+.group-child13 {
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-300);
+}
+
+.inner3 {
+    top: 395.31rem;
+    left: 0.25rem;
+}
+
+.africa,
+.america,
+.asia,
+.europe {
+    position: absolute;
+    top: 4.13rem;
+    left: 0;
+    line-height: 180%;
+}
+
+.africa,
+.asia,
+.europe {
+    top: 7.63rem;
+}
+
+.africa,
+.europe {
+    top: 11.13rem;
+}
+
+.africa {
+    top: 14.63rem;
+}
+
+.america-parent,
+.location {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.location {
+    font-size: var(--font-size-xl);
+    line-height: 180%;
+}
+
+.america-parent {
+    width: 4.94rem;
+    height: 16.63rem;
+}
+
+.about-me-parent,
+.group-parent12,
+.privacy-parent {
+    position: absolute;
+    top: 0;
+    left: 13.94rem;
+    width: 5rem;
+    height: 16.63rem;
+}
+
+.group-parent12,
+.privacy-parent {
+    left: 27.94rem;
+    width: 5.38rem;
+}
+
+.group-parent12 {
+    left: 28.13rem;
+    width: 33.31rem;
+}
+
+.award-winning-vaccination {
+    position: absolute;
+    padding-top: 2rem;
+    top: 0;
+    left: 0;
+    line-height: 180%;
+    display: inline-block;
+    width: 21.31rem;
+}
+
+.group-child14 {
+    position: absolute;
+    top: 7.06rem;
+    left: 0;
+    width: 12.93rem;
+    height: 3.13rem;
+}
+
+.award-winning-vaccination-and-parent,
+.group-parent13 {
+    position: absolute;
+    top: 4.81rem;
+    left: 0;
+    width: 21.31rem;
+    height: 10.19rem;
+}
+
+.group-parent13 {
+    top: 0.81rem;
+    height: 15rem;
+    font-size: var(--font-size-xl);
+    color: #fdfdfd;
+    font-family: var(--font-inter);
+}
+
+.group-parent11 {
+    position: absolute;
+    top: 399.88rem;
+    left: 19.38rem;
+    width: 61.44rem;
+    height: 16.63rem;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-nunito-sans);
+}
+
+.ornamentdotted-icon6 {
+    position: absolute;
+    top: 59rem;
+    left: 0;
+    width: 7rem;
+    height: 7rem;
+}
+@media (min-width: 2000px) {
+    .container {
+        font-size: 20px;
+        padding: 60px;
+        width: 100vh;
+    }
+    .group-wrapper,
+    .home-parent {
+        display: block;
+    }
+
+    .ornamentdotted-icon1,
+    .ornamentdotted-icon2,
+    .ornamentdotted-icon3,
+    .ornamentdotted-icon4,
+    .ornamentdotted-icon5 {
+            width: 10rem;
+            height: 10rem;
+    }
+    .consultation-parent {
+        font-size: 3.63rem;
+        top: 14.88rem;
+        left: 13.25rem;
+        width: 35.31rem;
+        height: 24.56rem;
+    }
+    .consultation-container {
+        width: 45rem;
+    }
+    
+    .scelerisque-dignissim-in {
+        width: 29.38rem;
+    }
+
+}
+@media (max-width: 1150px) {
+    .container {
+        font-size: 16px;
+        padding: 40px;
+    }
+    .ornamentdotted-icon1,
+    .ornamentdotted-icon2,
+    .ornamentdotted-icon3,
+    .ornamentdotted-icon4,
+    .ornamentdotted-icon5 {
+        width: 6rem;
+        height: 6rem;
+    }
+    @media (max-width: 1150px) {
+    
+        .group-wrapper,
+        .home-parent,
+        .corporate-logo
+        {
+            display: none;
+        }
+    .consultation-parent {
+        font-size: 3rem;
+        top: 14.88rem;
+        left: 5rem;
+        width: 30rem;
+        height: auto;
+    }
+    .consultation-container {
+        width: 30rem;
+        
+    }
+    
+    .scelerisque-dignissim-in {
+        width: 35rem;
+        
+    }
+    .logo-icon {
+        max-height: 2.5rem;
+    }
+}
+@media (max-width: 850px) {
+    .container {
+        font-size: 14px;
+        padding: 30px;
+    }
+
+    .group-wrapper,
+    .home-parent {
+        display: none;
+    }
+    .ornamentdotted-icon1,
+    .ornamentdotted-icon2,
+    .ornamentdotted-icon3,
+    .ornamentdotted-icon4,
+    .ornamentdotted-icon5 {
+        display: none;
+    }
+    .consultation-parent {
+        font-size: 2.5rem;
+        top: 15rem;
+        left: 2rem;
+        width: 20rem;
+        height: auto;
+    }
+    .consultation-container {
+        width: 30rem;
+    }
+    
+    .scelerisque-dignissim-in {
+        width: 30rem;
+    
+    }
+    .logo-icon {
+        max-height: 2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .group-wrapper,
+    .home-parent {
+        display: none;
+    }
+    .consultation-parent {
+        font-size: 2rem;
+        top: 15rem;
+        left: 1rem;
+        width: 16rem;
+        height: auto;
+    }
+    .consultation-container {
+        width: 30rem;
+    }
+    .scelerisque-dignissim-in {
+        width: 30rem;
+        top: 10rem;
+    }
+    
+    .our-services-wrapper {
+        width: 7.5rem;
+        font-size: 14px;
+    }
+    .logo-icon {
+        max-height: 1.5rem;
+    }
+    
+}
+@media (max-width: 450px) {
+    .container {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .group-wrapper,
+    .home-parent {
+        display: none;
+    }
+
+    .consultation-parent {
+        font-size: 1.5rem;
+        top: 17rem;
+        left: 0.5rem;
+        width: 12rem;
+        height: auto;
+    }
+    .consultation-container {
+        width: 12rem;
+    }
+    .scelerisque-dignissim-in {
+        width: 30rem;
+    }
+    .our-services-wrapper {
+        width: 5.5rem;
+        font-size: 12px;
+        
+    }
+    .logo-icon {
+        max-height: 1rem;
+    }
+    
+}
+}
